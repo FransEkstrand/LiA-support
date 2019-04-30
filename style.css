@@ -2,6 +2,57 @@ body {
     background-color: #5E5E5E;
 }
 
+* {}
+
 .navbar {
     background-color: #424242;
+    margin-bottom: 25px;
+}
+
+.card {
+    border: 2px #1BFDC0 solid;
+    background-color: #5E5E5E;
+
+}
+
+.card-img-top {
+    border-bottom: 2px #1BFDC0 solid;
+}
+
+.card-text,
+.card-title {
+    color: white;
+}
+
+.card-img-top {
+    height: 150px;
+
+}
+
+.btn-card {
+    border: 2px #1BFDC0 solid;
+    background-color: #5E5E5E;
+    color: #1BFDC0;
+}
+
+.btn:hover {
+    border: 2px #1BFDC0 solid;
+    color: #5E5E5E;
+    background-color: #1BFDC0;
+}
+
+.badge-color {
+    border: 2px #1BFDC0 solid;
+    background-color: #5E5E5E;
+    color: #1BFDC0;
+}
+
+.badge-color:hover {
+    border: 2px #1BFDC0 solid;
+    color: #5E5E5E;
+    background-color: #1BFDC0;
+}
+
+.badge {
+    margin: 0 0 5px 13px;
 }
