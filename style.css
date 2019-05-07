@@ -2,17 +2,16 @@ body {
     background-color: #5E5E5E;
 }
 
-* {}
+
 
 .navbar {
     background-color: #424242;
-    margin-bottom: 25px;
 }
 
 .card {
     border: 2px #1BFDC0 solid;
     background-color: #5E5E5E;
-
+    margin: 15px 0 15px 0;
 }
 
 .card-img-top {
