@@ -12,31 +12,38 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">LiA-Support</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">LIA Support</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <ion-icon name="menu"></ion-icon>
+                </span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2 search-bar" placeholder="Sök" aria-label="Search" />
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <ion-icon class="search-icon " name="search"></ion-icon>
+                        </button>
+                    </div>
+                </form>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login.html">Logga In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Laga konto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <div class="container">
         <div class="row">
@@ -151,6 +158,7 @@
 
 
 </body>
+<script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
 </script>
