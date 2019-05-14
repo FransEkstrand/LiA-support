@@ -118,6 +118,10 @@ body {
     background-color: #ea4335;
 }
 
+.btn-google a {
+    color: white;
+}
+
 .btn-facebook {
     color: white;
     background-color: #3b5998;

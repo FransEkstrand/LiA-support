@@ -48,17 +48,21 @@ body {
 .dropdown-item {
     border-bottom: #1BFDC0 1px solid;
     width: 300px;
-    background-color: #5E5E5E;
+    background-color: rgb(78, 78, 78);
     color: #ffffff;
 }
 
 .dropdown-item:hover {
-    background-color: rgb(79, 79, 79);
+    background-color: rgb(68, 68, 68);
     color: #ffffff;
 }
 
 .dropdown-menu.show {
-    background-color: #5E5E5E;
+    padding: 0;
+}
+
+.dropdown-menu a:last-child {
+    border: none;
 }
 
 /* Searchbar */
@@ -93,6 +97,10 @@ body {
 
 .search-icon {
     font-size: 1em;
+}
+
+.btn:hover {
+    color: #ffffff;
 }
 
 /* Cards */
@@ -143,6 +151,11 @@ body {
 
 .badge {
     margin: 0 0 5px 13px;
+}
+
+/* Info page */
+.info-page-img {
+    border-right: 2px #1BFDC0 solid;
 }
 
 /* Navbar breakpoint */
