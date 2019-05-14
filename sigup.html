@@ -9,7 +9,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
     <link rel="stylesheet" href="login.css">
-    <title>LIA Support - Logga in</title>
+    <title>LIA Support - Skapa konto</title>
 </head>
 
 <body>
@@ -18,9 +18,13 @@
             <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
                 <div class="card card-signin my-5">
                     <div class="card-body">
-                        <h5 class="card-title text-center text-white font-weight-bold">Logga in</h5>
-                        <p class="text-center text-white">Har du inget konto? <a href="sigup.html">skapa konto</a></p>
+                        <h5 class="card-title text-center text-white font-weight-bold">Skapa konto</h5>
+                        <p class="text-center text-white">Har du redan ett konto? <a href="login.html">Logga in</a></p>
                         <form class="form-signin">
+                            <div class="form-label-group">
+                                <input type="name" class="form-control" placeholder="Email address" required autofocus>
+                                <label for="inputEmail">Namn</label>
+                            </div>
                             <div class="form-label-group">
                                 <input type="email" id="inputEmail" class="form-control" placeholder="Email address"
                                     required autofocus>
@@ -33,17 +37,7 @@
                                 <label for="inputPassword">Lösenord</label>
                             </div>
 
-                            <div class="custom-control custom-checkbox mb-3">
-                                <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                <label class="custom-control-label text-white" for="customCheck1">Kom ihåg
-                                    lösenord</label>
-                            </div>
-                            <button class="btn btn-lg btn-block text-uppercase login" type="submit">Logga
-                                in</button>
-                            <hr class="my-4">
-                            <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i
-                                    class="fab fa-google mr-2"></i> <a href="index.html">Logga in med
-                                    Google</a></button>
+                            <button class="btn btn-lg btn-block text-uppercase login" type="submit">Laga konto</button>
                         </form>
                     </div>
                 </div>
