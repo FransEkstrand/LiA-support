@@ -2,6 +2,11 @@ body {
     background-color: #5E5E5E;
 }
 
+
+.panel-transparent {
+    background: none;
+}
+
 /* Navbar */
 
 .navbar {
@@ -32,6 +37,29 @@ body {
     color: rgb(255, 255, 255);
 }
 
+/* Brancher dropdown */
+
+.dropdown-toggle,
+.dropdown-menu.show {
+    border: none;
+    width: 300px;
+}
+
+.dropdown-item {
+    border-bottom: #1BFDC0 1px solid;
+    width: 300px;
+    background-color: #5E5E5E;
+    color: #ffffff;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(79, 79, 79);
+    color: #ffffff;
+}
+
+.dropdown-menu.show {
+    background-color: #5E5E5E;
+}
 
 /* Searchbar */
 
@@ -42,7 +70,8 @@ body {
 
 .form-inline {
     border: #1BFDC0 2px solid;
-    width: 256px;
+    min-width: 256px;
+    max-width: 300px;
     border-radius: 8px;
 }
 
@@ -65,6 +94,8 @@ body {
 .search-icon {
     font-size: 1em;
 }
+
+/* Cards */
 
 .card {
     border: 2px #1BFDC0 solid;
@@ -112,4 +143,15 @@ body {
 
 .badge {
     margin: 0 0 5px 13px;
+}
+
+/* Navbar breakpoint */
+@media screen and (max-width: 991px) {
+    .navbar-nav {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card-deck {}
 }

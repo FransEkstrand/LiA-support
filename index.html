@@ -13,6 +13,9 @@
 
 <body>
     <header>
+
+        <!---Navbar--->
+
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">LIA Support</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -24,6 +27,24 @@
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 
+                <!--brancher dropdown-->
+                <div class="dropdown m-auto">
+                    <button class="btn btn-secondary dropdown-toggle ml-auto panel-transparent" type="button"
+                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown button
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Artesan (finsnickare)</a>
+                        <a class="dropdown-item" href="#">Artesan (interiör)</a>
+                        <a class="dropdown-item" href="#">Automationsmontör-elmontör</a>
+                        <a class="dropdown-item" href="#">Bagare-konditor</a>
+                        <a class="dropdown-item" href="#">Datanom</a>
+                        <a class="dropdown-item" href="#">Djurskötare</a>
+                        <a class="dropdown-item" href="#">Fordonsmekaniker</a>
+                    </div>
+                </div>
+
+                <!--Searchbar-->
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2 search-bar" placeholder="Sök" aria-label="Search" />
                     <div class="input-group-btn">
@@ -33,6 +54,7 @@
                     </div>
                 </form>
 
+                <!--Login-->
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="Login.html">Logga In</a>
@@ -45,8 +67,9 @@
         </nav>
     </header>
 
+    <!--Cards-->
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-sm">
                 <div class="card" style="width: 18rem;">
                     <img src="https://www.multitronic.fi/images/multitronic_logo-share.png" class="card-img-top"
